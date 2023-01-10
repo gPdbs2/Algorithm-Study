@@ -18,3 +18,5 @@ for i in range(t):
         print(a + ' & ' + b + ' are anagrams.')
     else:
         print(a + ' & ' + b + ' are NOT anagrams.')
+
+# 걸린 시간 : 42분
