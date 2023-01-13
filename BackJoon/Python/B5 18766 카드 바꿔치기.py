@@ -33,7 +33,7 @@ for i in range(T):
     before = sorted(list(input().rstrip().split()))
     after = sorted(list(input().rstrip().split()))
 
-    # 전과 후가 일치하면 NOT CHANGER, 일치하지 않으면 CHANGER 출력
+    # 전과 후가 일치하면 NOT CHEATER, 일치하지 않으면 CHEATER 출력
     if before == after:
         print("NOT CHEATER")
     else:
