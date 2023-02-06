@@ -4,6 +4,7 @@ input = sys.stdin.readline
 def binary(array, target):
     start = 0
     end = len(array)-1
+
     while start <= end:
         mid = (start+end)//2
         if array[mid] == target:
@@ -15,6 +16,7 @@ def binary(array, target):
     return 0
 
 t = int(input())
+
 for _ in range(t):
     n = int(input())
     n_li = list(map(int, input().split()))   # 수첩 1
@@ -25,7 +27,7 @@ for _ in range(t):
     n_li.sort()
 
     for i in m_li:
-        print(n_li, i)
+        print(binary(n_li, i))
 
 
 # 걸린 시간 : 약 하루 + 1시간
